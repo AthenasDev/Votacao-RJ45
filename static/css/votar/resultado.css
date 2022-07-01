@@ -1,0 +1,130 @@
+body {
+    color: white;
+}
+div {
+    display: inline-block;
+}
+.text_credits {
+    position: absolute;
+    padding: 5px;
+    text-align: center;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: auto;
+    bottom: 0%;
+}
+.bg {
+    background: linear-gradient(75deg, #4E5B60, #8E9DA3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+    z-index: -1;
+}
+.grl {
+    position: absolute;
+    width: 50%;
+    margin-top: -4%;
+    height: auto;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.bg h1{
+    text-align: center;
+    margin: 0;
+}
+.bar {
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    width: 250px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: white;
+    left: 5;
+}
+.bar .progress_candidata01 {
+    z-index: 0;
+    height: 100%;
+    border-radius: 5px;
+    background: rgb(64,77,202);
+}
+.bar .progress_candidata02 {
+    z-index: 0;
+    height: 100%;
+    border-radius: 5px;
+    background: rgb(64,77,202);
+}
+.bar .progress_candidata03 {
+    z-index: 0;
+    height: 100%;
+    border-radius: 5px;
+    background: rgb(64,77,202);
+}
+.bar .progress_candidato01 {
+    z-index: 0;
+    height: 100%;
+    border-radius: 5px;
+    background: rgb(64,77,202);
+}
+.bar .progress_candidato02 {
+    z-index: 0;
+    height: 100%;
+    border-radius: 5px;
+    background: rgb(64,77,202);
+}
+.bar .progress_candidato03 {
+    z-index: 0;
+    height: 100%;
+    border-radius: 5px;
+    background: rgb(64,77,202);
+}
+.rainha {
+    margin: auto;
+    height: 50%;
+    width: auto;
+}
+.posicoes {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.rei {
+    margin: auto;
+    height: 50%;
+    width: auto;
+}
+.title_02 {
+    text-align: center;
+}
+.position {
+    text-align: left;
+}
+
+@media (max-width: 1000px) {
+    .posicoes {
+        flex-direction: column;
+    }
+    .grl {
+        width: 75%;
+        width: auto;
+        margin-top: -4%;
+    }
+}

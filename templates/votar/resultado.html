@@ -1,0 +1,86 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="{% static 'css/votar/resultado.css' %}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .bar .progress_candidato01{
+            width: {{ primeiroReiPorcentagem }};
+        }
+        .bar .progress_candidato02{
+            width: {{ segundoReiPorcentagem }};
+        }
+        .bar .progress_candidato03{
+            width: {{ terceiroReiPorcentagem }};
+        }
+        .bar .progress_candidata01{
+            width: {{ primeiraRainhaPorcentagem }};
+        }
+        .bar .progress_candidata02{
+            width: {{ segundaRainhaPorcentagem }};
+        }
+        .bar .progress_candidata03{
+            width: {{ terceiraRainhaPorcentagem }};
+        }
+    </style>
+    <title>Votação RJ-45</title>
+</head>
+<body class="body">
+    <div class="bg">
+        <div>
+            <img class="img" src="{% static 'images/votar/resultado.png' %}">
+        </div>
+        <div class="grl">
+            <h1>
+                Pódio
+            </h1>
+            <div class="posicoes">
+                <div class="rainha">
+                    <h2 class="title_02">Rainhas</h2>
+                    <h3 class="position">1° {{ primeiraRainha }}</h3>
+                    <div class="bar">
+                        <div class="progress_candidata01"></div>
+                    </div>
+                    <br><br><br>
+                    <h3 class="position">2° {{ segundaRainha }}</h3>
+                    <div class="bar">
+                        <div class="progress_candidata02"></div>
+                    </div>
+                    <br><br><br>
+                    <h3 class="position">3° {{ terceiraRainha }}</h3>
+                    <div class="bar">
+                        <div class="progress_candidata03"></div>
+                    </div>
+                </div>
+                <div class="rei">
+                    <h2 class="title_02">Reis</h2>
+                    <h3 class="position">1° {{ primeiroRei }}</h3>
+                    <div class="bar">
+                        <div class="progress_candidato01"></div>
+                    </div>
+                    <br><br><br>
+                    <h3 class="position">2° {{ segundoRei }}</h3>
+                    <div class="bar">
+                        <div class="progress_candidato02"></div>
+                    </div>
+                    <br><br><br>
+                    <h3 class="position">3° {{ terceiroRei }}</h3>
+                    <div class="bar">
+                        <div class="progress_candidato03"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="text_credits">
+                Site desenvolvido  pela Athenas Dev, <br>
+                2° IRC do Instituto Federal de Sergipe Campus Lagarto em 2022.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

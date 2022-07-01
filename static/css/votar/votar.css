@@ -1,0 +1,136 @@
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.bg {
+  background: linear-gradient(#4E5B60, #8E9DA3); 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -2;
+}
+
+.body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  top: 50px;
+  left: 50%;
+  justify-content: space-between;
+}
+
+.bg_top {
+  float: right;
+  left: 0px;
+  height: 60%;
+  width: 100%;
+}
+
+.img {
+  position: absolute;
+  bottom: 0;
+  max-width: 450px;
+  height: auto;
+  width: 100%;
+  padding: 1%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.text {
+  padding: 3px;
+  border: none;
+  text-align: center;
+}
+
+.text_credits {
+  position: absolute;
+  padding: 5px;
+  text-align: center;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: auto;
+  bottom: 0%;
+}
+
+.h1 {
+  font-size: 45px;
+  padding: 1%;
+  margin-top: 4%;
+}
+
+.input {
+  padding: 7.5px;
+  max-width: 290px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  background-color: #8E9DA3;
+  color: white;
+}
+
+.select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 290px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  outline: none;
+  background-color: #8E9DA3; 
+  color: white;
+}
+
+.select:hover {
+  cursor: pointer;
+  background-color: #4E5B60;
+}
+
+.button {
+  background-color: #8E9DA3;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 8px;
+  cursor: pointer;
+  color: white;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #4E5B60;
+}
+
+.h6 {
+  color: white;
+  cursor: pointer;
+}
+
+.h6:hover {
+  color: rgb(67, 67, 67);
+  cursor: pointer;
+}
+
+.messages {
+  position: absolute;
+  max-width: 250px;
+  width: 100%;
+  padding-left: 2%;
+  margin: 1%;
+}
+
+@media (max-width:930px) {
+  .img {
+    width: 83%;
+    bottom: 3%;
+  }
+  .h1 {
+    margin-top: 10%;
+  }
+}
