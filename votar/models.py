@@ -3,18 +3,18 @@ from django.db import models
 # Create your models here.
 
 candidato1, candidato2, candidato3, candidato4, candidato5 = [
-    'TESTEA',
-    'TESTEB',
-    'TESTEC',
-    'TESTED',
-    'TESTEE',
+    'Guilherme Mendes Araujo',
+    'Guilherme Pereira Rodrigues',
+    'Kauã Eduardo Andrade De Lima',
+    'Luis Antônio Morais Carvalho',
+    'Saulo Costa Chaves Silva',
 ]
 candidato6, candidato7, candidato8, candidato9, candidato10 = [
-    'TESTEF',
-    'TESTEG',
-    'TESTEH',
-    'TESTEI',
-    'TESTEJ',
+    'Alana Almeida Barbosa',
+    'Eloane Andrade Da Costa',
+    'Ingrid Dos Santos Silva',
+    'Kamila Santos Rodrigues',
+    'Monik Andrade Santos',
 ]
 
 voto_rei = [
