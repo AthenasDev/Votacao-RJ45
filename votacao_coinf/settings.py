@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-hq7jex%!8y1n6vu1fj15cs-akxy8yeuk%$wwqsgoiklhvl4=ml
 DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1','44.204.77.238','ip-172-31-92-14.ec2.internal','votacaorj45.site','votar.votacaorj45.site','vote.votacaorj45.site','www.votacaorj45.site']
-
+CSRF_TRUSTED_ORIGINS = ['https://votacaorj45.site']
 
 # Application definition
 
